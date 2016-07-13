@@ -1,0 +1,88 @@
+	<tablelayout android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+02
+    <tablerow>
+03
+ <textview android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Enter your name">
+04
+    <edittext android:layout_height="wrap_content" android:layout_width="150px">
+05
+    <Button
+06
+    android:layout_width="wrap_content"
+07
+    android:layout_height="wrap_content"
+08
+    android:text="Submit"
+09
+    />   
+10
+    </edittext></textview></tablerow>
+11
+  
+12
+ <tablerow>
+13
+ <textview android:layout_height="wrap_content" android:layout_span="2" android:layout_width="wrap_content" android:text="Spanning Two columns">
+14
+    <Button
+15
+    android:layout_width="wrap_content"
+16
+    android:layout_height="wrap_content"
+17
+    android:text="Cancel"
+18
+    />   
+19
+ </textview></tablerow>
+20
+  
+21
+ <tablerow>
+22
+ <Button
+23
+    android:layout_width="wrap_content"
+24
+    android:layout_height="wrap_content"
+25
+    android:text="Help"
+26
+    android:layout_column="1"
+27
+    />   
+28
+ </tablerow>
+29
+  
+30 <view android:background="#f00" android:layout_height="5px">
+21
+ <tablerow>
+22
+ <Button
+23
+    android:layout_width="wrap_content"
+24
+    android:layout_height="wrap_content"
+25
+    android:text="Help"
+26
+    android:layout_column="5"
+27
+    />   
+28
+ </tablerow>
+29
+ <Button
+30
+    android:layout_width="wrap_content"
+31
+    android:layout_height="wrap_content"
+32
+    android:text="Separator"
+33
+    />   
+34
+</view></tablelayout>
+
+</tablelayout>
